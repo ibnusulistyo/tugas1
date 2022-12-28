@@ -1,0 +1,45 @@
+@media all and (max-width: 1200px) and (min-width:1000px) {
+    .informasi .uraian{
+        margin-top: -150px;
+    }
+    
+}
+
+@media all and (max-width: 999px) and (min-width:992px) {
+    .informasi .uraian{
+        margin-top: -150px;
+    }
+    
+}
+
+@media all and (max-width: 991px) and (min-width:872px) {
+    .informasi .uraian{
+        margin-top: -240px;
+    }
+    
+    .container{
+        min-width: 820px;
+    }
+}
+
+
+/* For Smartphones */
+@media all and (max-width: 872px) {
+    .informasi .uraian{
+        margin-top: 18px;
+    }
+
+    .detail .detail-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .detail-main .detail-content{
+        flex: auto;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .detail .row{
+        display: flex;
+    }
+}

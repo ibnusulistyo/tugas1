@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color: rgba(28, 49, 86, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar a{
+    color: white ;
+}
+.slider-search .carousel{
+    height: 600px;
+}
+.slider-search .carousel-item {
+    margin-top: 100px;
+    height: 500px;
+  }
+
+.slider-search .carousel-item img{
+    padding-top: 40px;
+    display: block;
+    height: 90%;
+    max-width: 100%;
+    line-height: 1;
+    margin:auto;
+    width: 90%;
+}
+
+.slider-search{
+    position: relative;
+}
+.card-search .card{
+    padding-top:500px;
+    margin:auto;
+    margin-top:-180px;
+    width: 60%;
+}
+
+.slider-lelang{
+    background: #003366;
+    position: relative;
+    height: 100%;
+    padding: 10px 70px 10px 70px;
+}
+.slider-lelang .card .image img{
+    height :100%;
+    /* width:100%; */
+    object-fit:fill;
+}
+
+.slider-lelang h3{
+    color: white;
+}
+
+.swiper-side .card{
+    height: 500px;
+}
+
+/* Halaman deskripsi */
+.detail{
+    margin-top: 100px;
+}
+.informasi{
+    margin-bottom: 50px;
+}
+.card .deskripsi{
+    align-self: flex-end;
+}
+
+
+.informasi .uraian{
+    margin-top: -50px;
+}
+
+
+.footer {
+    color: rgb(255, 249, 249);
+    padding-top: 30px;
+    background-color: rgba(25, 17, 63, 0.9);
+}
+
+.footer-logo {
+    font-size: 32px;
+}
+
+.contact-list li {
+    padding-bottom: 20px;
+}
+
+.input-email input {
+    width: 220px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.uraian .id{
+    font-weight: 600;
+}
